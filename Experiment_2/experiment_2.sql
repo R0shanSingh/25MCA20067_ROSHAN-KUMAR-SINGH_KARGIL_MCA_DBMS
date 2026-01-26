@@ -33,4 +33,6 @@ SELECT product, SUM(price) AS total_sales FROM customer_orders GROUP BY product;
 SELECT product, SUM(price) AS total_sales FROM customer_orders GROUP BY product HAVING SUM(price)>60000;
 
 --step6
+SELECT product, SUM(price * quantity) AS total_sales FROM customer_orders WHERE SUM(price * quantity) > 60000 GROUP BY product;
+
 SELECT product, SUM(price) FROM customer_orders GROUP BY product HAVING SUM(price)>60000;
