@@ -36,18 +36,14 @@ INSERT INTO Project VALUES
 (201, 'Payroll System', 2),
 (202, 'Web Application', 2);
 
-UPDATE Employee
-SET salary = 55000
-WHERE emp_id = 101;
+UPDATE Employee SET salary = 55000 WHERE emp_id = 101;
 
-DELETE FROM Project
-WHERE project_id = 202;
+DELETE FROM Project WHERE project_id = 202;
 
 --3
 SELECT CURRENT_USER;
 
-CREATE ROLE report_staff
-WITH LOGIN PASSWORD 'staff1';
+CREATE ROLE report_staff WITH LOGIN PASSWORD 'staff1';
 
 SELECT CURRENT_USER;
 
