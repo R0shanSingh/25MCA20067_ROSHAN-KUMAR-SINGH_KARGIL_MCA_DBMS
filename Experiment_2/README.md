@@ -72,45 +72,6 @@ To implement and analyze SQL **SELECT queries** using filtering, sorting, groupi
 
 ---
 
-## Screenshots
-
-### Step 1: Table Creation & Data Insertion
-
-![Step 1 Output](Screenshots/step1_output.png)
-
-### Step 2: Filtering Data Using WHERE Clause
-
-![Step 2 Output](Screenshots/step2_output.png)
-
-### Step 3: Sorting Query Results
-
-**Ascending Order**
-![Step 3 ASC Output](Screenshots/step3_asc_output.png)
-
-**Descending Order**
-![Step 3 DESC Output](Screenshots/step3_desc_output.png)
-
-**Multiple Column Sorting**
-![Step 3 Multi Column Output](Screenshots/step3_MulCol_output.png)
-
-### Step 4: Grouping and Aggregation
-
-![Step 4 Output](Screenshots/step4_output.png)
-
-### Step 5: HAVING Clause on Aggregated Data
-
-![Step 5 Output](Screenshots/step5_output.png)
-
-### Step 6: Incorrect vs Correct Aggregation Condition
-
-**Incorrect Query (WHERE with Aggregate)**
-![Step 6 Incorrect](Screenshots/step6_incorrect.png)
-
-**Correct Query (HAVING Clause)**
-![Step 6 Correct Output](Screenshots/step6_output.png)
-
----
-
 ## SQL Code
 
 ### Table Creation
