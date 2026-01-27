@@ -1,4 +1,4 @@
-# Experiment No. 1.1
+# Experiment No. 1
 
 ## Student Details
 
@@ -55,7 +55,6 @@ An organization wants to design a sample database system to manage **Departments
 
 ## Software Requirements
 
-* **Oracle Database Express Edition**
 * **PostgreSQL with pgAdmin**
 
 ---
@@ -191,12 +190,20 @@ DROP TABLE Project;
 
 ## Output
 
-* Department Table displayed successfully
-* Employee Table displayed successfully
-* Reporting staff role created
+* Tables Created
+![Create Tables](Screenshots/create_tables.png)
+* Data inserted and Updated successfully
+![Insertion and Updation](Screenshots/insert_update.png)
+* Grant and Revoke for new user
+![Grant and Revoke](Screenshots/grant_revoke.png)
+* Current user display
+![current_user](Screenshots/current_user.png)
+* New user login as current user
+![New user](Screenshots/new_staff.png)
 * Only SELECT permission granted
-* Insert, Update, Delete, and Create privileges restricted
-* Project table accessed successfully using reporting staff user
+![Report Staff](Screenshots/report_staff_select_access.png)
+* Alter and Droped Succesfully
+![Alter and Drop](Screenshots/alter_drop.png)
 
 ---
 
