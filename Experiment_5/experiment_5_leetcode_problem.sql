@@ -1,4 +1,4 @@
-
+-- https://leetcode.com/problems/average-time-of-process-per-machine/submissions/1929949359/
 
 SELECT MACHINE_ID, 
 ROUND(
